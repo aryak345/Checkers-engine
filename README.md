@@ -32,7 +32,7 @@ AI Strategy:
 The AI uses a depth-limited Minimax algorithm with alpha-beta pruning to evaluate possible moves. The evaluation function considers the number of pawns, kings, and central position control, with weighted scores. Forced captures are generated and evaluated during move generation.
 
 Sample Output:
-
+```
   +---+---+---+---+---+---+---+---+
 8 | . | O | . | O | . | O | . | O |
 7 | O | . | O | . | O | . | O | . |
@@ -48,6 +48,7 @@ Sample Output:
 
 Its Player X's turn
 From:
+```
 
 Compilation:
 Make sure you have a C compiler like gcc installed.
